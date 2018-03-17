@@ -5,8 +5,8 @@
     - name: Staging
       rules:
         - name: Full text search
-          value: Production
-          id: i8iLVJVtbJ4u0GYR
+          value: ''
+          id: qvCfbos4XxF60HHL
         - type: Short Text
           name: Environment
           availableOperators:
@@ -17,8 +17,26 @@
             - does not match RegEx
           operator: is
           value: Staging
-          id: s5Vs9maRTJMQaguh
-      id: xNArrWmH9fdNKmDD
+          id: 07YjDIwtU7j28FSr
+      id: UGNtVkFgXUYzWoXx
+      scopeKey: global
+    - name: Production
+      rules:
+        - name: Full text search
+          value: ''
+          id: qvCfbos4XxF60HHL
+        - type: Short Text
+          name: Environment
+          availableOperators:
+            - is
+            - contains
+            - does not contain
+            - matches RegEx
+            - does not match RegEx
+          operator: is
+          value: Production
+          id: YwuEq8p9oVo9EpzX
+      id: 11OJMweaSMIrYlLI
       scopeKey: global
 - key: imrehg
   scopeLabel: just me
