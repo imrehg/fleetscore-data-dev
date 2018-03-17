@@ -1,4 +1,10 @@
 FleetScore:
+  - title: modifiers
+    Base score: '1000'
+    ResinOS 1.x: '2'
+    Supervisor below 4.2.2: '2'
+    ResinOS 1.0.0-pre: '2'
+    PS_UUID: 32f0ad70-2a0f-11e8-b719-c9046c656f59
   - title: supervisor version
     Versions: |-
       7.1.16,2018-03-16
