@@ -1,2 +1,4 @@
 - name: title
   type: Case Insensitive Text
+- name: Date
+  type: Date
