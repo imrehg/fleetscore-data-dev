@@ -1,0 +1,26 @@
+- key: global
+  scopeLabel: everyone
+  title: Global
+  data:
+    - name: Production
+      rules:
+        - name: Full text search
+          value: Production
+          id: i8iLVJVtbJ4u0GYR
+        - type: Short Text
+          name: Environment
+          availableOperators:
+            - is
+            - contains
+            - does not contain
+            - matches RegEx
+            - does not match RegEx
+          operator: is
+          value: Production
+          id: JiQI7usuiTr1dnlv
+      id: lH42tsXY7lT9KbiS
+      scopeKey: global
+- key: imrehg
+  scopeLabel: just me
+  title: imrehg
+  data: []
