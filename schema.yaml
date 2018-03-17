@@ -2,3 +2,7 @@
   type: Case Insensitive Text
 - name: Date
   type: Date
+- name: Environment
+  type: Short Text
+- name: Versions
+  type: Text
