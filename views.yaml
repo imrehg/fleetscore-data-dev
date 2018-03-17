@@ -2,7 +2,7 @@
   scopeLabel: everyone
   title: Global
   data:
-    - name: Production
+    - name: Staging
       rules:
         - name: Full text search
           value: Production
@@ -16,9 +16,9 @@
             - matches RegEx
             - does not match RegEx
           operator: is
-          value: Production
-          id: JiQI7usuiTr1dnlv
-      id: lH42tsXY7lT9KbiS
+          value: Staging
+          id: s5Vs9maRTJMQaguh
+      id: xNArrWmH9fdNKmDD
       scopeKey: global
 - key: imrehg
   scopeLabel: just me
