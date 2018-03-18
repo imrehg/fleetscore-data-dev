@@ -1,7 +1,7 @@
 FleetScore:
   - Date: '2018-03-18'
     title: 2018-03-18 Staging
-    Environment: Staging_axfww
+    Environment: Staging_dmukb
     Versions: |-
       2.12.3,7.1.14,4
       2.12.2,7.1.11,5
