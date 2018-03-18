@@ -1,20 +1,7 @@
 FleetScore:
   - Date: '2018-03-18'
-    title: 2018-03-18 Staging
-    Environment: Staging_dmukb
-    Versions: |-
-      2.12.3,7.1.14,4
-      2.12.2,7.1.11,5
-      2.10.1,6.6.3,2
-      2.9.6,6.5.9,1
-      2.3.0,6.1.3,1
-      2.3.0,4.1.2,1
-      1.26.0,4.1.2,1
-      1.8.0,1.13.0,1
-    PS_UUID: 578ced80-2a3f-11e8-be5b-fd3133df6e03
-  - Date: '2018-03-18'
     title: 2018-03-18 Production
-    Environment: Production_rhceq
+    Environment: Production_idtsf
     Versions: |-
       2.12.3,7.1.14,5
       2.12.2,7.1.11,4
@@ -30,6 +17,19 @@ FleetScore:
       1.26.0,4.1.2,1
       1.6.0,6.4.2,1
     PS_UUID: 552bcc00-2a3f-11e8-be5b-fd3133df6e03
+  - Date: '2018-03-18'
+    title: 2018-03-18 Staging
+    Environment: Staging_dmukb
+    Versions: |-
+      2.12.3,7.1.14,4
+      2.12.2,7.1.11,5
+      2.10.1,6.6.3,2
+      2.9.6,6.5.9,1
+      2.3.0,6.1.3,1
+      2.3.0,4.1.2,1
+      1.26.0,4.1.2,1
+      1.8.0,1.13.0,1
+    PS_UUID: 578ced80-2a3f-11e8-be5b-fd3133df6e03
   - Date: '2018-03-17'
     title: 2018-03-17 Staging
     Environment: Staging_vdlwn
